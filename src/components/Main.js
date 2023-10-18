@@ -9,7 +9,7 @@ export default function Main() {
   return (
     <div className="pt-4 px-6">
       <div className="grid grid-cols-4 gap-8 mt-6 pb-4">
-        <div className="h-32 rounded-lg bg-white border-l-2 flex items-center justify-center px-6 cursor-pointer hover:shadow-lg transform hover:scale-105 transition duration-300 ease-out">
+        <div className="h-32 rounded-lg bg-white border-l-2 flex items-center justify-center px-8 cursor-pointer hover:shadow-lg transform hover:scale-105 transition duration-300 ease-out">
           <div className="flex items-center">
             <img
               src={earning}
