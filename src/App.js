@@ -8,7 +8,7 @@ import Productsell from "./components/Productsell";
 function App() {
   return (
     <div className="flex">
-      <div className="basis-[15%]">
+      <div className="basis-[15%] min-w-[200px]">
         <Sidebar />
       </div>
 

@@ -9,9 +9,14 @@ export default function Main() {
   return (
     <div className="pt-4 px-6">
       <div className="grid grid-cols-4 gap-8 mt-6 pb-4">
-        <div className="h-32 rounded-lg bg-white border-l-2 flex items-center justify-center px-8 cursor-pointer hover:shadow-lg transform hover:scale-105 transition duration-300 ease-out">
+        <div className="h-32 rounded-lg bg-white border-l-2 flex items-center justify-center px-6 cursor-pointer hover:shadow-lg transform hover:scale-105 transition duration-300 ease-out">
           <div className="flex items-center">
-            <img src={earning} alt="earning-img" className="-ml-7" />
+            <img
+              src={earning}
+              alt="earning-img"
+              className="-ml-7"
+              style={{ width: "100px", height: "100px" }}
+            />
             <div>
               <h4 className="text-slate-300 text-md leading-4 font-semibold">
                 Earning
@@ -29,7 +34,12 @@ export default function Main() {
         </div>
         <div className="h-32 rounded-lg bg-white border-l-2 flex items-center justify-center px-8 cursor-pointer hover:shadow-lg transform hover:scale-105 transition duration-300 ease-out">
           <div className="flex items-center">
-            <img src={orders} alt="earning-img" className="-ml-7" />
+            <img
+              src={orders}
+              alt="earning-img"
+              className="-ml-7"
+              style={{ width: "100px", height: "100px" }}
+            />
             <div>
               <h4 className="text-slate-300 text-md leading-4 font-semibold">
                 Orders
@@ -45,7 +55,12 @@ export default function Main() {
         </div>
         <div className="h-32 rounded-lg bg-white border-l-2 flex items-center justify-center px-8 cursor-pointer hover:shadow-lg transform hover:scale-105 transition duration-300 ease-out">
           <div className="flex items-center">
-            <img src={balance} alt="earning-img" className="-ml-8" />
+            <img
+              src={balance}
+              alt="earning-img"
+              className="-ml-8"
+              style={{ width: "100px", height: "100px" }}
+            />
             <div>
               <h4 className="text-slate-300 text-md leading-4 font-semibold">
                 Balance
@@ -61,7 +76,12 @@ export default function Main() {
         </div>
         <div className="h-32 rounded-lg bg-white border-l-2 flex items-center justify-center px-8 cursor-pointer hover:shadow-lg transform hover:scale-105 transition duration-300 ease-out">
           <div className="flex items-center">
-            <img src={totalorder} alt="earning-img" className="-ml-7" />
+            <img
+              src={totalorder}
+              alt="earning-img"
+              className="-ml-7"
+              style={{ width: "100px", height: "100px" }}
+            />
             <div>
               <h4 className="text-slate-300 text-md leading-4 font-semibold">
                 Total Sales
